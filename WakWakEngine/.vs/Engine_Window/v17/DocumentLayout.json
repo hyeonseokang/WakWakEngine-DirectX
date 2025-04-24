@@ -5,6 +5,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{CC846D33-DF55-439C-AAF7-ADE38F3B496E}|Engine_Window\\Engine_Window.vcxproj|C:\\Users\\ekrmd\\Desktop\\WakWakEngine-DirectX\\WakWakEngine\\Engine_Window\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CC846D33-DF55-439C-AAF7-ADE38F3B496E}|Engine_Window\\Engine_Window.vcxproj|solutionrelative:Engine_Window\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62CF0F69-EA6C-4E0E-BB9B-C72DA63651A3}|WakWakEngine\\WakWakEngine.vcxproj|C:\\Users\\ekrmd\\Desktop\\WakWakEngine-DirectX\\WakWakEngine\\WakWakEngine\\Engine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{62CF0F69-EA6C-4E0E-BB9B-C72DA63651A3}|WakWakEngine\\WakWakEngine.vcxproj|solutionrelative:WakWakEngine\\Engine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62CF0F69-EA6C-4E0E-BB9B-C72DA63651A3}|WakWakEngine\\WakWakEngine.vcxproj|C:\\Users\\ekrmd\\Desktop\\WakWakEngine-DirectX\\WakWakEngine\\WakWakEngine\\Engine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{62CF0F69-EA6C-4E0E-BB9B-C72DA63651A3}|WakWakEngine\\WakWakEngine.vcxproj|solutionrelative:WakWakEngine\\Engine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +22,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Engine.cpp",
+              "DocumentMoniker": "C:\\Users\\ekrmd\\Desktop\\WakWakEngine-DirectX\\WakWakEngine\\WakWakEngine\\Engine.cpp",
+              "RelativeDocumentMoniker": "WakWakEngine\\Engine.cpp",
+              "ToolTip": "C:\\Users\\ekrmd\\Desktop\\WakWakEngine-DirectX\\WakWakEngine\\WakWakEngine\\Engine.cpp",
+              "RelativeToolTip": "WakWakEngine\\Engine.cpp",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-24T16:48:42.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Engine.h",
+              "DocumentMoniker": "C:\\Users\\ekrmd\\Desktop\\WakWakEngine-DirectX\\WakWakEngine\\WakWakEngine\\Engine.h",
+              "RelativeDocumentMoniker": "WakWakEngine\\Engine.h",
+              "ToolTip": "C:\\Users\\ekrmd\\Desktop\\WakWakEngine-DirectX\\WakWakEngine\\WakWakEngine\\Engine.h",
+              "RelativeToolTip": "WakWakEngine\\Engine.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-24T16:46:25.244Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +56,7 @@
               "RelativeDocumentMoniker": "Engine_Window\\main.cpp",
               "ToolTip": "C:\\Users\\ekrmd\\Desktop\\WakWakEngine-DirectX\\WakWakEngine\\Engine_Window\\main.cpp",
               "RelativeToolTip": "Engine_Window\\main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAADwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-24T16:32:37.427Z",
               "EditorCaption": ""

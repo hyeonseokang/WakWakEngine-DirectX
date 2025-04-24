@@ -1,4 +1,7 @@
 #include <windows.h>
+#include "..\\WakWakEngine\\\Engine.h"
+
+WakWak::Engine engine;
 
 LRESULT CALLBACK WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)
 {
@@ -19,25 +22,38 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance
     wc.lpszClassName = L"WakWakEngine";
     RegisterClassW(&wc);
 
+    UINT width = 1600;
+    UINT height = 900;
     HWND hwnd = CreateWindowExW(
         0,
         L"WakWakEngine",
         L"WakWakEngine",
         WS_OVERLAPPEDWINDOW,
-        CW_USEDEFAULT, CW_USEDEFAULT, 800, 600,
+        CW_USEDEFAULT, CW_USEDEFAULT, width, height,
         nullptr, nullptr, hInstance, nullptr
     );
 
     if (!hwnd)
         return -1;
 
+
     ShowWindow(hwnd, nCmdShow);
 
+
+    engine.Init(hwnd, width, height);
+
     MSG msg = {};
-    while (GetMessageW(&msg, nullptr, 0, 0))
+    while (true)
     {
-        TranslateMessage(&msg);
-        DispatchMessageW(&msg);
+        if (PeekMessage(&msg, nullptr, 0, 0, PM_REMOVE))
+        {
+            if (msg.message == WM_QUIT)
+                break;
+        }
+        else
+        {
+            engine.Run();
+        }
     }
 
     return static_cast<int>(msg.wParam);
